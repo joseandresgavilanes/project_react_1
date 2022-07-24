@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+:root{
+    --colorPrimary: black
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.quotesContainer{
+    background-color: var(--colorPrimary);
+}
+
+.quotesContainer{
+    min-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.quotes{
+    padding: 100px;
+    width: 60%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    box-shadow: 1px 1px 10px #0005;
+    position: relative;
+}
+
+
+.dataContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+h1{
+    font-size: 30px;
+}
+
+
+.dataContainer{ 
+    max-width: 1000px;
+    width: 100%;
+    margin: 30px;
+}
+
+.changeQuote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.fa-quote-left{
+    font-size: 4rem;
+    position: absolute;
+    left: 50px;
+    top: 55px;
+}
+
+
+
+.buttonContainer h2{
+    min-width: 5%;
+    min-height: 5%;
+    position: absolute;
+    right: 30px;
+    bottom: 85px;
+}
+
+
+.changeQuote{
+    position: absolute;
+    right: 30px;
+    bottom: 15px;
+}
+
